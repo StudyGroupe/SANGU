@@ -1,0 +1,260 @@
+header {
+  padding-top: 10px;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  left: 140px;
+  z-index: 10;
+}
+header img {
+  background-color: #fff;
+  margin-top: 13px;
+  width: 180px;
+  height: 50px;
+  padding: 5px 5px;
+}
+header .list {
+  padding: 30px 0 10px 450px;
+  height: 15px;
+}
+header .list li {
+  float: left;
+  border-left: 1px solid #fff;
+  height: 15px;
+  padding: 0 20px;
+}
+header .list li:nth-of-type(3) {
+  border-right: 1px solid #fff;
+}
+header a {
+  color: #f8f8f8;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  line-height: 15px;
+}
+header .current {
+  color: #237abd;
+}
+
+.header-contents {
+  display: flex;
+  flex-direction: column;
+}
+.header-contents > p:nth-of-type(1) {
+  font-size: 15px;
+  padding-left: 40px;
+  color: #fff;
+}
+
+.tel {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+  color: #fff;
+}
+.tel p:nth-of-type(1) {
+  font-size: 13px;
+  line-height: 40px;
+  padding-right: 10px;
+}
+.tel p:nth-of-type(2) {
+  font-size: 23px;
+}
+
+.bg {
+  background-image: url(../img/index/bg.png);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+.bg p {
+  color: #fff;
+}
+.bg .main-text {
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.bg .btn {
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+#main-wrapper {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+#main-wrapper > p:nth-of-type(1) {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 0;
+}
+#main-wrapper p {
+  text-align: center;
+}
+
+.first-contents {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.first-contents div {
+  width: 310px;
+}
+.first-contents img {
+  margin: 0 auto;
+}
+.first-contents p {
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+.second-contents {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.second-contents div {
+  width: 310px;
+}
+.second-contents img {
+  margin: 0 auto;
+}
+.second-contents p {
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+.service {
+  padding: 30px 0;
+}
+.service p {
+  text-align: center;
+  color: #237abd;
+  padding: 5px 0;
+}
+.service > p:nth-of-type(1) {
+  font-size: 30px;
+}
+.service > p:nth-of-type(2) {
+  font-size: 30px;
+}
+
+.first-sv {
+  display: flex;
+  justify-content: center;
+}
+.first-sv img {
+  box-shadow: 5px 5px #237abd;
+}
+.first-sv div {
+  padding: 10px 10px;
+}
+
+.second-sv {
+  display: flex;
+  justify-content: center;
+}
+.second-sv img {
+  box-shadow: 5px 5px #237abd;
+}
+.second-sv div {
+  padding: 10px 10px;
+}
+
+.recruit {
+  background-color: #f8f8f8;
+  padding: 30px 0;
+}
+.recruit > p {
+  text-align: center;
+  color: #237abd;
+  font-size: 25px;
+}
+.recruit > div {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.recruit > div div:nth-of-type(1) {
+  background-image: url(../img/index/recruit.png);
+  width: 455px;
+  height: 215px;
+  position: relative;
+}
+.recruit > div div:nth-of-type(1) img {
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  bottom: 0;
+  right: 0;
+}
+.recruit > div div:nth-of-type(1) p {
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  bottom: 0;
+  right: 0;
+}
+.recruit > div div:nth-of-type(2) {
+  background-image: url(../img/index/company.png);
+  width: 455px;
+  height: 215px;
+  position: relative;
+}
+.recruit > div div:nth-of-type(2) img {
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  bottom: 0;
+  right: 0;
+}
+.recruit > div div:nth-of-type(2) p {
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  bottom: 0;
+  right: 0;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer a {
+  color: #000;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  padding-bottom: 10px;
+}
+footer p {
+  text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    width: 980px;
+    position: absolute;
+    left: 0;
+  }
+  header .list {
+    padding: 40px 0 10px 200px;
+  }
+
+  .bg {
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
